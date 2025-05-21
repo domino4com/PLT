@@ -7,8 +7,8 @@ This is a Battery with Monitoring Sensor (Fuel Gauge) measuring **Voltage** and 
 | Communication | I²C |
 | I²C Address | 0x36 |
 | ChipSet | Maxim MAX17048|
-| Datasheet | [.pdf](https://.pdf](https://www.analog.com/media/en/technical-documentation/data-sheets/max17048-max17049.pdf) |
-| Suggested Arduino Library | [GitHub](https://github.com/](https://github.com/adafruit/Adafruit_MAX1704X) |
+| Datasheet | [.pdf](https://www.analog.com/media/en/technical-documentation/data-sheets/max17048-max17049.pdf) |
+| Suggested Arduino Library | [GitHub](https://github.com/adafruit/Adafruit_MAX1704X) |
 | Precision |±7.5mV/Cell Voltage Measurement|
 | Ultra-Low Quiescent Current| 3μA Hibernate, 23μA Active|
 
