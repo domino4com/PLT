@@ -1,6 +1,6 @@
 <img src="assets/PLT.svg" width=200 align="right">
 
-# PLT - Input Weather A
+# PLT - 18350 Rechargeble Lithium Ion Battery with Monitoring Sensor
 This is a Battery with Monitoring Sensor (Fuel Gauge) measuring **Voltage** and **State of Charge**
 | Specifications | |
 | --: | :--: |
