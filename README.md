@@ -1,22 +1,20 @@
-<img src="assets/IWA.svg" width=200 align="right">
+<img src="assets/PLT.svg" width=200 align="right">
 
-# IWA - Input Weather A
-This is a Weather Sensor measuring Atmospheric **Temperature** and Relative **Humidity**
+# PLT - Input Weather A
+This is a Battery with Monitoring Sensor (Fuel Gauge) measuring **Voltage** and **State of Charge**
 | Specifications | |
 | --: | :--: |
 | Communication | I²C |
-| I²C Address | 0x44 |
-| ChipSet | Sensirion SHT30-DIS|
-| Datasheet | [.pdf](https://.pdf) |
+| I²C Address | 0x36 |
+| ChipSet | Maxim MAX17048|
+| Datasheet | [.pdf]([https://.pdf](https://www.analog.com/media/en/technical-documentation/data-sheets/max17048-max17049.pdf) |
 | Suggested Arduino Library | [GitHub](https://github.com/) |
-| Temperature Accuracy | ±0.2 °C |
-| Temperature Range | -40 to 125 °C |
-| Humidity Accuracy | ± 2 %RH |
-| Humidity Range | 0 to 100 %RH |
+| Precision |±7.5mV/Cell Voltage Measurement|
+| Ultra-Low Quiescent Current| 3μA Hibernate, 23μA Active|
 
 ## Supported I²C Modes
-- [ ] 100 kbit/s Standard Mode (SM) 
-- [ ] 400 kbit/s	Fast Mode	FM
+- [X] 100 kbit/s Standard Mode (SM) 
+- [X] 400 kbit/s	Fast Mode	FM
 - [ ] 1 Mbit/s	Fast Mode Plus	FM+
 - [ ] 3.4Mbit/s	High Speed Mode	HS
 - [ ] 5 Mbit/s	Ultra Fast Mode	UFM
