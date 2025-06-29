@@ -1,0 +1,34 @@
+{
+    "name": "PLT",
+    "version": "1.0.0",
+    "description": "PLT: 18350 Rechargeble Lithium Ion Battery with Monitoring Sensor",
+    "keywords": "PLT, Battery, Fuel Gauge, Sensor",
+    "authors": [{
+        "name": "Bjarke Gotfredsen",
+        "url": "https://github.com/gotfredsen",
+        "maintainer": true
+    }],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/domino4com/PLT.git"
+    },
+    "homepage": "https://github.com/domino4com/PLT",
+    "export": {
+        "include": [
+            "LICENSE",
+            "library.json",
+            "library.properties",
+            "README.md",
+            "keywords.txt",
+            "src/*",
+            "examples/*"
+        ]
+    },
+    "frameworks": ["arduino", "espidf"],
+    "platforms": "esp32",
+    "headers": "PLT.h",
+    "dependencies":
+    {
+        "bblanchon/ArduinoJson": "^6.21.3"
+    }
+}
